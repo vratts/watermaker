@@ -1,5 +1,5 @@
 {
-  "name": "watermaker",
+  "name": "watermakers",
   "version": "1.0.0",
   "description": "Insira marca-d'água via linha de comando em todas as imagens de um diretorio",
   "main": "index.js",
@@ -19,6 +19,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vratts/watermaker/issues"
+  },
+  "bin": {
+    "watermaker": "index.js"
   },
   "homepage": "https://github.com/vratts/watermaker#readme",
   "dependencies": {
